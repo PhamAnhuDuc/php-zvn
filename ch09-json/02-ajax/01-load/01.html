@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>AJAX</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript">
+		// tìm hiểu tham số url
+		$(document).ready(function(){  //thực hiện khi toàn bộ trang được tải xong
+			var url	= 'files/data.html';
+			 var url	= 'files/data.php';
+			 var url	= 'files/data.txt';
+			$('#content').load(url);  //lấy dữ liệu từ trang khác đổ vào 1 vùng dữ liệu content
+		});
+	
+	</script>
+</head>
+<body>
+	<div id="wrapper">
+		<div class="title">Ajax - Load</div>
+		<div class="list">  
+			<h3>.load(url [,data] [, complete(responseText, textStatus)] )</h3> <!--ngoặc vuông truyền vào cũng được k truyền vào cũng dc-->
+			<div id="content">Hello</div>
+		</div>
+    </div>
+</body>
+</html>

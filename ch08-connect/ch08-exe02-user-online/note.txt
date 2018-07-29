@@ -1,0 +1,10 @@
+hướng giải quyết
+	- tạo ra 1 bảng có lưu thông tin người dùng truy cập vào 1 trang web
+	-bảng online : -id
+					- ip : xác định userA hay userB 
+					- url : luu tru trang index hay trang demo (lưu trữ lại trang web ng dùng truy cập vào)
+					- time : lưu trữ lại thời gian cuối cùng mà người dùng truy cập lại vào web
+	- Tìm kiếm thông tin người dùng trong bảng online
+		dựa vào ip và url nếu có thì phải cập nhập lại time nếu k có thì thêm mới
+		xóa các dòng dữ liệu có time k thỏa mãn điều kiện
+		hiển thị danh sách người dùng online tại trang đó

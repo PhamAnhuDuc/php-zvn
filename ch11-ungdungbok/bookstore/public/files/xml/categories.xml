@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><book_store><category>
+								<id>1</id>
+								<name>Văn Học - Tiểu Thuyết</name>
+								<picture>hft8q1c3.jpg</picture>
+							</category><category>
+								<id>2</id>
+								<name>Kinh Tế</name>
+								<picture>3snfyg8u.jpg</picture>
+							</category><category>
+								<id>3</id>
+								<name>Tin học</name>
+								<picture>zahorwby.jpg</picture>
+							</category><category>
+								<id>4</id>
+								<name> Kỹ Năng Sống</name>
+								<picture>bntdur5l.jpg</picture>
+							</category></book_store>

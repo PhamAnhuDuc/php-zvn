@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>  <!--tạo ra tập tin XML : túm lại là xml để máy tính đọc và để truyền dữ liệu giữa các server -->
+
+<book>
+	<title>Lập trình PHP</title>
+	<author>ZendVN</author>
+	<pages>500</pages>
+	<weight units="gram">400</weight>
+	<img src='abc.jpg' />
+</book>
